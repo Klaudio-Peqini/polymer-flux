@@ -31,9 +31,9 @@ This model enables:
 
 The model evolves:
 
-- Pressure: $ p(x,t) \)
-- Water saturation: $ S_w(x,t) \)
-- Polymer concentration: $ c(x,t) \)
+- Pressure: $ p(x,t) $
+- Water saturation: $ S_w(x,t) $
+- Polymer concentration: $ c(x,t) $
 
 ---
 
