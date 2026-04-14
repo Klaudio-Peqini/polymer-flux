@@ -43,7 +43,7 @@ Polymer is transported in the aqueous phase:
 
 $$
 \frac{\partial}{\partial t}(\phi_{eff} S_w c) + \nabla \cdot (u_w c) = - \rho_r \frac{\partial \Gamma(c)}{\partial t}
-\]
+$$
 
 ---
 
@@ -51,7 +51,7 @@ $$
 
 $$
 \phi_{eff} = \phi (1 - s_{ipv})
-\]
+$$
 
 ---
 
@@ -59,7 +59,7 @@ $$
 
 $$
 \Gamma(c) = \Gamma_{max} \frac{c}{K + c}
-\]
+$$
 
 ---
 
@@ -67,7 +67,7 @@ $$
 
 $$
 \mu_{w,eff}(c) = \mu_w + f(c)(\mu_{wp} - \mu_w)
-\]
+$$
 
 ---
 
@@ -75,7 +75,7 @@ $$
 
 $$
 \lambda_w = \frac{k_{rw}}{\mu_{w,eff}(c)}, \quad \lambda_o = \frac{k_{ro}}{\mu_o}
-\]
+$$
 
 ---
 
@@ -83,7 +83,7 @@ $$
 
 $$
 k_{eff} = \frac{k}{R_k(c)}
-\]
+$$
 
 ---
 
