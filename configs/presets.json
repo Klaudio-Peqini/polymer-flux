@@ -1,0 +1,104 @@
+{
+  "paper_targets": {
+    "driza1_water": {
+      "oil_ml": 15.3,
+      "rf_percent": 25.0
+    },
+    "driza1_polymer": {
+      "oil_ml": 31.7,
+      "rf_percent": 53.0
+    },
+    "driza1_hybrid": {
+      "oil_ml": 28.85,
+      "rf_percent": 48.0
+    },
+    "driza2_water": {
+      "oil_ml": 12.03,
+      "rf_percent": 25.8
+    },
+    "driza2_polymer": {
+      "oil_ml": 24.3,
+      "rf_percent": 52.0
+    }
+  },
+  "presets": {
+    "driza1_base": {
+      "name": "Driza 1 base",
+      "phi": 0.28,
+      "k_darcy": 10.0,
+      "Swi": 0.25,
+      "Sor": 0.4,
+      "mu_w_cp": 1.0,
+      "mu_o_cp": 2000.0,
+      "mu_p_ref_cp": 20.0,
+      "c_inj_ppm": 2000.0,
+      "gamma_max_ug_g": 100.0,
+      "langmuir_K_ppm": 800.0,
+      "ipv": 0.08,
+      "rrf_max": 1.35,
+      "krw0": 0.4,
+      "kro0": 0.8,
+      "nw": 2.0,
+      "no": 2.0,
+      "n_cells": 160,
+      "length_cm": 13.32,
+      "area_cm2": 10.5,
+      "inj_rate_ml_h": 312.0,
+      "t_end_h": 6.5,
+      "oil_in_place_ml": 59.8,
+      "hybrid_switch_h": 2.333
+    },
+    "driza2_base": {
+      "name": "Driza 2 base",
+      "phi": 0.27,
+      "k_darcy": 9.0,
+      "Swi": 0.25,
+      "Sor": 0.4,
+      "mu_w_cp": 1.0,
+      "mu_o_cp": 2200.0,
+      "mu_p_ref_cp": 20.0,
+      "c_inj_ppm": 2000.0,
+      "gamma_max_ug_g": 100.0,
+      "langmuir_K_ppm": 850.0,
+      "ipv": 0.09,
+      "rrf_max": 1.33,
+      "krw0": 0.38,
+      "kro0": 0.78,
+      "nw": 2.1,
+      "no": 2.1,
+      "n_cells": 160,
+      "length_cm": 10.65,
+      "area_cm2": 11.0,
+      "inj_rate_ml_h": 278.0,
+      "t_end_h": 6.5,
+      "oil_in_place_ml": 46.7,
+      "hybrid_switch_h": 2.333
+    },
+    "patos_base": {
+      "name": "Patos-Marinza proxy",
+      "phi": 0.28,
+      "k_darcy": 10.0,
+      "Swi": 0.2,
+      "Sor": 0.4,
+      "mu_w_cp": 1.0,
+      "mu_o_cp": 2000.0,
+      "mu_p_ref_cp": 20.0,
+      "c_inj_ppm": 2000.0,
+      "gamma_max_ug_g": 120.0,
+      "langmuir_K_ppm": 1000.0,
+      "ipv": 0.1,
+      "rrf_max": 1.4,
+      "krw0": 0.4,
+      "kro0": 0.8,
+      "nw": 2.0,
+      "no": 2.0,
+      "n_cells": 250,
+      "length_cm": 50.0,
+      "area_cm2": 20.0,
+      "inj_rate_ml_h": 500.0,
+      "t_end_h": 24.0,
+      "oil_in_place_ml": 500.0,
+      "hybrid_switch_h": 8.0
+    }
+  }
+}
