@@ -1,20 +1,20 @@
-# 📦 Polymer Flooding Reduced-Order Model (v2+ Extended)
+# Polymer Flooding Reduced-Order Model (v2+ Extended)
 
 ---
 
-## 📌 Overview
+## Overview
 
 This repository provides a **research-grade reduced-order simulator** for polymer flooding in porous media.
 
 It is designed to bridge the gap between:
 
-- 🧪 **Laboratory coreflood experiments (Driza 1 & Driza 2)**
-- 🧠 **Physical understanding of polymer EOR mechanisms**
-- 🛢️ **Field-scale intuition (Patos-Marinza)**
+- **Laboratory coreflood experiments (Driza 1 & Driza 2)**
+- **Physical understanding of polymer EOR mechanisms**
+- **Field-scale intuition (Patos-Marinza)**
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 This model enables:
 
@@ -25,7 +25,7 @@ This model enables:
 
 ---
 
-## 🧠 Physical Model Description
+## Physical Model Description
 
 ### Governing Variables
 
@@ -37,7 +37,7 @@ The model evolves:
 
 ---
 
-### 🧪 Polymer Transport
+### Polymer Transport
 
 Polymer is transported in the aqueous phase:
 
@@ -47,7 +47,7 @@ Polymer is transported in the aqueous phase:
 
 ---
 
-### 🧱 Effective Porosity
+### Effective Porosity
 
 \[
 \phi_{eff} = \phi (1 - s_{ipv})
@@ -55,7 +55,7 @@ Polymer is transported in the aqueous phase:
 
 ---
 
-### 🧲 Adsorption (Langmuir)
+### Adsorption (Langmuir)
 
 \[
 \Gamma(c) = \Gamma_{max} \frac{c}{K + c}
@@ -63,7 +63,7 @@ Polymer is transported in the aqueous phase:
 
 ---
 
-### 💧 Effective Viscosity
+### Effective Viscosity
 
 \[
 \mu_{w,eff}(c) = \mu_w + f(c)(\mu_{wp} - \mu_w)
@@ -71,7 +71,7 @@ Polymer is transported in the aqueous phase:
 
 ---
 
-### ⚙️ Mobility
+### Mobility
 
 \[
 \lambda_w = \frac{k_{rw}}{\mu_{w,eff}(c)}, \quad \lambda_o = \frac{k_{ro}}{\mu_o}
@@ -87,7 +87,7 @@ k_{eff} = \frac{k}{R_k(c)}
 
 ---
 
-## 🏗️ Numerical Method
+## Numerical Method
 
 - Finite Volume Method (TPFA)
 - Upwind flux discretization
@@ -96,7 +96,7 @@ k_{eff} = \frac{k}{R_k(c)}
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 polymer_v2_package/
@@ -116,7 +116,7 @@ polymer_v2_package/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 pip install -r requirements.txt
@@ -124,7 +124,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Running Simulations
+## Running Simulations
 
 ```bash
 python src/run_case.py --preset driza1_base --mode polymer
@@ -138,7 +138,7 @@ python src/run_case.py --preset driza1_base --mode polymer
 
 ---
 
-## 🧪 Preset Library
+## Preset Library
 
 ### Driza 1
 
@@ -180,7 +180,7 @@ python src/run_case.py --preset driza1_base --mode polymer
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 ✔ Captures correct ordering  
 ✔ Approximates magnitude  
@@ -188,7 +188,7 @@ python src/run_case.py --preset driza1_base --mode polymer
 
 ---
 
-## 🔬 Extended Study Cases
+## Extended Study Cases
 
 ### Polymer concentration scan
 1000–3000 ppm
@@ -204,7 +204,7 @@ python src/run_case.py --preset driza1_base --mode polymer
 
 ---
 
-## 📉 Outputs
+## Outputs
 
 - recovery.csv
 - profiles.csv
@@ -214,7 +214,7 @@ python src/run_case.py --preset driza1_base --mode polymer
 
 ---
 
-## 🧪 Calibration Workflow
+## Calibration Workflow
 
 1. Fit waterflood
 2. Match breakthrough
@@ -224,7 +224,7 @@ python src/run_case.py --preset driza1_base --mode polymer
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - 1D only
 - No heterogeneity
@@ -233,7 +233,7 @@ python src/run_case.py --preset driza1_base --mode polymer
 
 ---
 
-## 🔄 Future Work
+## Future Work
 
 - Fully implicit solver
 - AD Jacobian
@@ -243,7 +243,7 @@ python src/run_case.py --preset driza1_base --mode polymer
 
 ---
 
-## 👨‍🏫 Discussion Points
+## Discussion Points
 
 - Adsorption vs mobility control
 - Polymer efficiency limits
@@ -252,11 +252,11 @@ python src/run_case.py --preset driza1_base --mode polymer
 
 ---
 
-## 📌 Final Insight
+## Final Insight
 
 This framework provides:
 
-👉 **Understanding > black-box simulation**
+**Understanding > black-box simulation**
 
 It is ideal for:
 - teaching
@@ -265,7 +265,7 @@ It is ideal for:
 
 ---
 
-## 📬 Contact / Contribution
+## Contact / Contribution
 
 Open for extension toward:
 - HPC integration
