@@ -1,4 +1,4 @@
-# Polymer Flooding Reduced-Order Model (v2+ Extended)
+# Polymer Flooding Reduced-Order Model
 
 ---
 
